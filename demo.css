@@ -1,0 +1,19 @@
+*{
+    background-color:rgb(190, 223, 163);
+}
+.title_text{
+    font-size: 40px;
+    color:rgb(253, 146, 59);
+    
+    display: block;
+    width: 100%;
+    text-align: center;	
+}
+.icon{
+    text-align: center;	
+}
+.icon_text{
+    font-size: 20px;
+    color:rgb(44, 82, 252);
+    padding:0 10px 0 10px;
+}
