@@ -61,7 +61,7 @@ body{
 }
 
 #main{
-	margin-top:20px;
+	margin-top:5px;
 	height:500px;
 	width:100%;
 }
@@ -84,12 +84,15 @@ body{
     background-image: -moz-linear-gradient(top,#EBEBEB, #BFBFBF);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #EBEBEB),color-stop(1, #BFBFBF));
 }
+#mainw{
+	height:420px;
+}
 #mainPanel #left{
 	float:left;
 	border-right:2px solid #F6F6F6;
 	position:relative;
 	top:10%;
-	height:80%;
+	height:75%;
 	width:49%;
 	border-right-style:groove;
 }
@@ -106,12 +109,12 @@ body{
 #mainPanel #right{
 	float:left;
 	position:relative;
-	height:90%;
+	height:75%;
 	width:49%;
-	top:5%;
+	top:10%;
 }
 #welcome{
-	margin-top:20px;
+	margin-top:10px;
 	height:60px;
 	width:100%;
 	vertical-align: middle;
@@ -159,9 +162,9 @@ body{
 	text-align:center;
 }
 #error-tip{
-	margin-top:20px;
+	margin-top:10px;
 	margin-left:5%;
-	height:40px;
+	height:20px;
 	width:90%;
 	vertical-align: middle;
 	display: inline-block;
@@ -214,10 +217,12 @@ body{
 }
 
 #footer{
-	margin-top:20px;
+	margin-top:0px;
 	width:100%;
+	
 }
 #footer #text{
+	
 	text-align:center;
 	font-size:14px;
 	font-family:微软雅黑;
