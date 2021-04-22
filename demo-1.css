@@ -1,10 +1,15 @@
-/* *{
+/* {
     background-color:rgb(190, 223, 163);
+	background-image:url('image/background.jpg');
+    background-size:cover;
 } */
 body{
-	margin:0px;
-	padding:0px;
-	overflow:hidden;
+	background-image: url('image/login_bg.png');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: 50% !important;
+    background-size: cover;
+	/* background:rgb(206, 249, 255); */
 }
 #wrapper{
 	position:absolute;
@@ -40,17 +45,17 @@ body{
 	width:60%;
 	border-radius: 18px;
 	background-color:#1C75BC;
-	opacity:0.6;
+	opacity:1;/*透明度0-1,1表示完全不透明*/
 }
 #heading #title{
-	margin-top:40px;
+	margin-top:30px;
 	text-align:center;
 	font-family:微软雅黑;
-	font-size:24px;
+	font-size:40px;
 	font-weight:bold;
 }
 #heading #subTitle{
-	margin-top:10px;
+	margin-top:5px;
 	text-align:center;
 	font-family:Courier New;
 }
@@ -68,8 +73,8 @@ body{
 	height:500px;
 	width:60%;
     border-radius: 18px;
-    background-color:#000000;
-    opacity:0.5;
+    background-color:#2f1f88;
+    opacity:1;/*透明度0-1,1表示完全不透明*/
 }
 #mainPanel{
     position:relative;
