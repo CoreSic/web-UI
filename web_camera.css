@@ -1,0 +1,35 @@
+*{
+    background-color:rgb(182, 204, 147);
+}
+body{
+    position:relative;
+    margin-top:10px;
+	height:600px;
+	width:100%;
+    text-align: center;
+}
+.title_text{
+    margin-top:30px;
+	text-align:center;
+	font-family:微软雅黑;
+	font-size:25px;
+    color:rgb(255, 112, 87);
+	font-weight:bold;
+}
+.video_view{
+    position:relative;
+    height:320px;
+	width:480px;
+    background-color: black;
+    text-align: center;
+    /* margin: auto; */
+}
+.button_view{
+    position:relative;
+    height:30px;
+	width:110px;
+    color:blue;
+    font-size: 17px;
+    font-weight:bold;
+    /* margin: auto; */
+}
