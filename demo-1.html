@@ -29,36 +29,36 @@
 
                         <div id="right">
                             <div id="welcome">
-                                <span id="welcome-text">login</span>
+                                <span id="welcome-text">Login</span>
                             </div>
                             <div id="user-name">
-                                <span class="item">用户名:</span>
-                                <span><input type="text" name="userName" class="form-input"></span>
+                                    <img src="image/user_icon.png" class="tipImg">
+                                    <span class="input"></span><input type="text" placeholder="请输入账号" name="userName" class="form-input"></span>                                
                             </div>
                             <div id="user-password">
-                                <span class="item">密   码:</span>
-                                <span class="input"><input type="password" name="password" class="form-input"></span>
+                                <img src="image/password_icon.png" class="tipImg">
+                                <span class="input"><input type="password" placeholder="请输入密码" name="password" class="form-input"></span>
                             </div>
                             <div id="user-checkcode">
-                                <span class="item">验证码:</span>
-                                <span class="input"><input type="text" name="checkCode" class="form-input"></span>
-                                <span class="checkcode-span"></span>
-                            </div>
-                            <div id="error-tip">
-                                <span id="tip-text"></span>
+                                <img src="image/verify_icon.png" class="tipImg">
+                                <span class="input"><input type="text" placeholder="请输入验证码" name="checkCode" class="form-input"></span>
+                                <img src="image/checkcode.jpg" id="imgCode">
                             </div>
                             <div id="button-group">
-                                <input type="submit" class="btn" value="注册"/>
                                 <input type="reset" class="btn" onclick="tz()" value="登录"/>
+                            </div>
+                            <div id="sign_up_view">
+                                <text>还没有账号？点击</text>
+                                <input type="submit" class="sign_up" onclick="tz()" value="注册"/>
                             </div>
                         </div> 
                     </div>
+
                     <script>
                         function tz(){
                         window.location.href='web_camera.html';
                         }
                     </script>
-
 
                     <div id="footer">
                         <div id="text">Copyright © 2020-2021 设备图书馆后台管理系统 by 3+1</div>
